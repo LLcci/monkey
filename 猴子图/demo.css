@@ -1,0 +1,1317 @@
+/*初始化*/
+*{
+	margin:0;
+	padding: 0;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*左右背景图*/
+/*左背景*/
+.l1{
+	float: left;
+	width: 193px;
+	height: 1662px;
+	background: url(bg_l1.jpg);
+	position: left 0;
+}
+.l2{
+	float: left;
+	width: 6px;
+	height: 1662px;
+	background: url(bg_l2.png);
+	border-right: 1px #ab8928 solid;
+}
+/*右背景*/
+.r1{
+	float: right;
+	width: 193px;
+	height: 1662px;
+	background: url(bg_l1.jpg);
+	position: left 0;
+}
+.r2{
+	float: right;
+	width: 6px;
+	height: 1662px;
+	background: url(bg_l2.png);
+	border-left: 1px #ab8928 solid;
+}
+/*头部*/
+/*头部背景*/
+.top{
+	float: left;
+	width: 949px;
+	height: 225px;
+	background: url(top_bg_t.png);
+}
+
+.top .bi{
+	display: block;
+	width: 949px;
+	height: 16px;
+	background: url(top_bg_b.png);
+	margin-top: 209px;
+	opacity: 0.4;
+	filter: opacity(opacity=40);
+}
+/*头部head*/
+
+.top a{
+	text-decoration: none;
+}
+
+.top .head .con i{
+	float: left;
+	width: 20px;
+    height: 28px;
+    background: url(icons.png) no-repeat;
+}
+
+.top .head p{
+	float: left;
+	width: 265px;
+	height: 28px;
+	background: #ff9935;
+	line-height: 27px;
+	font-size: 15px;
+	font-weight: bold;
+	text-indent: 48px;
+	font-family: "Microsoft Yahei";
+}
+
+.top .head p a{
+		color: #0f0000;
+}
+
+.top .head .con{
+	position: absolute;
+	right: 200px;
+	top: 7px;
+}
+
+/*头部monkey*/
+.top .monkey{
+	width: 557px;
+	height: 204px;
+	background: url(monkey.png);
+	position: absolute;
+	left: 215px;
+	top: 4px;
+}
+
+/*头部content*/
+.top .content{
+	width: 462px;
+	height: 100px;
+	position: absolute;
+	left: 543px;
+	top: 58px;
+}
+
+.top .content i{
+	display: block;
+	width: 462px;
+	height: 100px;
+	background: white;
+	opacity: 0.4;
+	filter: opacity(opacity=40);
+}
+
+.top .content .t{
+	font-size: 30px;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	opacity: static;
+	filter: opacity(opacity=static);
+	color: #946970;
+	position: absolute;
+	top: 10px;
+}
+
+.top .content .t .s1{
+	padding-left: 10px;
+	letter-spacing: 14px;
+}
+
+.top .content .t .s2{
+	letter-spacing: 5px;
+}
+
+.top .content .b{
+	font-size: 12px;
+	color: #683f3b;
+	font-family: "Microsoft Yahei";
+	position: absolute;
+	left: 17px;
+	top:59px;
+}
+
+/*中部*/
+/*背景*/
+.middle{
+	height: 1576px;
+	background: #ffcc33;
+}
+
+.middle .left,.middle .center,.middle .right{
+	float: left;
+}
+
+
+
+/*中部左边*/
+/*people*/
+.middle .left .people{
+	width: 228px;
+	height: 352px;
+	margin-top: 12px;
+	margin-left: 8px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .left .people .b1{
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .left .people .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .left .people .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .left .people .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+/*达人图片*/
+.middle .left .people .word .img{
+	width: 200px;
+	height: 203px;
+	background: white;
+	margin-top: 10px;
+	margin-left: 14px;
+	text-align: center;
+}
+.middle .left .people .word .img img{
+	margin-top: 8px;
+}
+/*下方按键*/
+.middle .left .people .word .but{
+	margin-top: 6px;
+	margin-left: 8px;
+	line-height: 28px;
+}
+.middle .left .people .word .but a{
+	display: inline-block;
+	font-family: "Microsoft Yahei";
+	width: 66px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+	background: url(content3.png);
+}
+.middle .left .people .word .but a:hover{
+	background: url(content2.png);
+	color: #b51f28;
+}
+/*底部边框*/
+.middle .left .people .d1{
+	margin-top: 8px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .left .people .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .left .people .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*音乐盒box*/
+.middle .left .box{
+	width: 228px;
+	height: 327px;
+	margin-left: 8px;
+	margin-top: 15px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .left .box .b1{
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .left .box .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .left .box .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .left .box .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .left .box .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 80px;
+}
+/*中部内容*/
+/*sheet*/
+.middle .left .box .music .sheet{
+	margin-top: 1px;
+	margin-left: 4px;
+	line-height: 28px;
+}
+.middle .left .box .music .sheet a{
+	display: inline-block;
+	font-family: "Microsoft Yahei";
+	width: 55px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+	background: url(left2_2.jpg);
+}
+.middle .left .box .music .sheet a:hover{
+	background: url(left2_1.jpg);
+	color: #b51f28;
+}
+/*song*/
+.middle .left .box .music .song{
+	width: 200px;
+}
+.middle .left .box .music .song ul{
+	list-style: none;
+	position: relative;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin-left: 18px;
+}
+.middle .left .box .music .song ul a{
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+}
+.middle .left .box .music .song ul span{
+	font-weight: bold;
+}
+.middle .left .box .music .song ul li{
+	line-height: 22px;
+	border-bottom: 1px black dotted;
+}
+.middle .left .box .music .song ul li i{
+	display: inline-block;
+	width: 16px;
+	height: 11px;
+	background: url(icons2.png) -585px 0;
+	position: absolute;
+	right: 0;
+	margin-top: 8px;
+}
+/*all*/
+.middle .left .box .music .all{
+	margin-left: 160px;	
+	margin-top: 4px;
+}
+.middle .left .box .music .all a{
+	font-size: 12px;
+	font-weight: bold;
+	color: #b41f25;
+}
+/*底部边框*/
+.middle .left .box .d1{
+	margin-top: 8px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .left .box .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .left .box .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*经纪公司company*/
+.middle .left .company{
+	width: 228px;
+	height: 338px;
+	margin-left: 8px;
+	margin-top: 15px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .left .company .b1{
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .left .company .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .left .company .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .left .company .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .left .company .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 65px;
+}
+/*中部图片*/
+.middle .left .company .man .img{
+	width: 200px;
+	height: 203px;
+	background: white;
+	margin-top: 10px;
+	margin-left: 14px;
+	text-align: center;
+}
+.middle .left .company .man .img img{
+	margin-top: 8px;
+}
+/*中部按键*/
+.middle .left .company .but{
+	margin-top: 12px;
+	margin-left: 20px;
+}
+.middle .left .company .but span{
+	float: left;
+	font-size: 14px;
+	color: #b41e29;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	line-height: 24px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.middle .left .company .but .l i{
+	float: left;
+	width: 55px;
+	height: 24px;
+	background: url(icons2.png);
+}
+.middle .left .company .but .r i{
+	float: left;
+	width: 55px;
+	height: 24px;
+	background: url(icons2.png) 0 -32px;
+}
+/*底部边框*/
+.middle .left .company .d1{
+	margin-top: 20px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .left .company .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .left .company .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*日历calendar*/
+.middle .left .calendar{
+	width: 228px;
+	height: 264px;
+	margin-left: 8px;
+	margin-top: 15px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .left .calendar .b1{	
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .left .calendar .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .left .calendar .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .left .calendar .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .left .calendar .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 92px;
+}
+/*中部内容*/
+/*日历cal*/
+.middle .left .calendar .cal{
+	width: 222px;
+	height: 192px;
+	background: url(icons2.png) 0 -91px;
+	text-align: center;
+}
+.middle .left .calendar .cal p{
+	font-size: 16px;
+	color: #b51e23;
+	font-weight: bold;
+}
+.middle .left .calendar .cal ul{
+	float: left;
+	list-style:none;
+	width: 168px;
+	height: 116px;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-left: 28px;
+}
+.middle .left .calendar .cal ul li{
+	float: left;
+	width: 24px;
+	height:20px;
+}
+.middle .left .calendar .cal ul .m,.middle .left .calendar .cal ul .t,.middle .left .calendar .cal ul .w,.middle .left .calendar .cal ul .t1,.middle .left .calendar .cal ul .f,.middle .left .calendar .cal ul .s,.middle .left .calendar .cal ul .s1{
+	color: #b51e23;
+	font-weight: bold;
+}
+.middle .left .calendar .cal ul li:hover{
+	background: #b31d26;
+	color: white;
+}
+/*两个按键*/
+.middle .left .calendar .cal .df a{
+	text-decoration: none;
+	color: black;
+}
+.middle .left .calendar .cal .df{
+	float: left;
+	margin-left: 46px;
+	margin-top: 6px;
+	word-spacing: 64px;
+}
+.middle .left .calendar .cal .df a:hover{
+	color: #b31c23;
+	font-weight: bold;
+}
+/*底部边框*/
+.middle .left .calendar .d1{
+	margin-top: 3px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .left .calendar .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .left .calendar .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*中部中间center*/
+
+/*视频video*/
+.middle .center .video{
+	width: 453px;
+	height: 286px;
+	margin-top: 12px;
+	margin-left: 10px;
+	background: #ffd3a6;
+}
+/*上部边框*/
+.middle .center .video .b1{	
+	width: 453px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .center .video .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .center .video .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .center .video .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .center .video .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 310px;
+	text-decoration: none;
+}
+/*中部内容*/
+.middle .center .video .vi div{
+	float: left;
+	width: 144px;
+	height: 197px;
+	margin-top: 2px;
+	text-align: center;
+}
+.middle .center .video .vi .vil{
+	margin-left: 10px;
+}
+.middle .center .video .vi div p{
+	line-height: 20px;
+	font-size: 14px;
+}
+.middle .center .video .vi div i{
+	display: inline-block;
+	margin-top: 6px;
+	width: 66px;
+	height: 24px;
+	background: url(投票灰.jpg);
+}
+.middle .center .video .vi div img{
+	margin-top: 6px;
+}
+.middle .center .video .vi div:hover{
+	background: #ff9935;
+	border-radius: 5px;
+}
+.middle .center .video .vi div:hover i{
+	width: 64px;
+	height: 22px;
+	background: url(投票橙.jpg);
+}
+.middle .center .video .vi div:hover p{
+	font-size: 12px;
+}
+/*底部边框*/
+.middle .center .video .d1{
+	margin-top: 18px;
+	width: 453px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .center .video .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .center .video .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*歌词创作lyric*/
+.middle .center .lyric{
+	width: 453px;
+	height: 256px;
+	margin-top: 14px;
+	margin-left: 10px;
+	background: #ffd3a6;
+}
+/*上部边框*/
+.middle .center .lyric .b1{	
+	width: 453px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .center .lyric .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .center .lyric .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .center .lyric .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .center .lyric .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 282px;
+	text-decoration: none;
+}
+/*中部内容*/
+.middle .center .lyric .ll,.middle .center .lyric .lr{
+	float: left;
+	width: 226px;
+	height: 188px;
+}
+.middle .center .lyric .ll p{
+	padding-top: 10px;
+	padding-left: 26px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.middle .center .lyric .lr p{
+	padding-top: 10px;
+	padding-left: 26px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.middle .center .lyric .ll a,.middle .center .lyric .lr a{
+	font-size: 10px;
+	color: #b52024;
+	padding-left: 86px;
+}
+.middle .center .lyric .ll{
+	border-right: 1px #fcb66e solid;
+}
+/*底部边框*/
+.middle .center .lyric .d1{
+	margin-top: -1px;
+	width: 453px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .center .lyric .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .center .lyric .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*相册photo*/
+.middle .center .photo{
+	width: 453px;
+	height: 286px;
+	margin-top: 12px;
+	margin-left: 10px;
+	background: #ffd3a6;
+}
+/*上部边框*/
+.middle .center .photo .b1{	
+	width: 453px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .center .photo .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .center .photo .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .center .photo .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .center .photo .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 310px;
+	text-decoration: none;
+}
+/*中部内容*/
+.middle .center .photo .pi div{
+	float: left;
+	width: 144px;
+	height: 197px;
+	margin-top: 6px;
+	text-align: center;
+}
+.middle .center .photo .pi .pil{
+	margin-left: 10px;
+}
+.middle .center .photo .pi div p{
+	line-height: 20px;
+	font-size: 14px;
+}
+.middle .center .photo .pi div i{
+	display: inline-block;
+	margin-top: 6px;
+	width: 66px;
+	height: 24px;
+	background: url(投票灰.jpg);
+}
+.middle .center .photo .pi div img{
+	margin-top: 6px;
+}
+.middle .center .photo .pi div:hover{
+	background: #ff9935;
+	border-radius: 5px;
+}
+.middle .center .photo .pi div:hover i{
+	width: 64px;
+	height: 22px;
+	background: url(投票橙.jpg);
+}
+.middle .center .photo .pi div:hover p{
+	font-size: 12px;
+}
+/*底部边框*/
+.middle .center .photo .d1{
+	margin-top: 14px;
+	width: 453px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .center .photo .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .center .photo .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*心情日记diary*/
+.middle .center .diary{
+	width: 453px;
+	height: 286px;
+	margin-top: 14px;
+	margin-left: 10px;
+	background: #ffd3a6;
+}
+/*上部边框*/
+.middle .center .diary .b1{	
+	width: 453px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .center .diary .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .center .diary .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .center .diary .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .center .diary .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 282px;
+	text-decoration: none;
+}
+/*中部内容dia*/
+.middle .center .diary .dia .title{
+	font-size: 12px;
+	font-weight: bold;
+	color: #b52024;
+	line-height: 22px;
+	background: #ffc48a;
+	padding-left: 59px;
+}
+.middle .center .diary .dia .title .r{
+	padding-left: 156px;
+}
+.middle .center .diary .dia .title .p{
+	padding-left: 126px;
+}
+.middle .center .diary .dia .diaw{
+	font-size: 12px;
+	line-height: 24px;
+}
+.middle .center .diary .dia .diaw a{
+	text-decoration: none;
+	color: black;
+}
+.middle .center .diary .dia .diaw p{
+	margin-left: 18px;
+	border-bottom:1px black dotted;
+}
+.middle .center .diary .dia .diaw p .d{
+	padding-left: 74px;
+}
+.middle .center .diary .dia .diaw p .p{
+	padding-left: 112px;
+}
+.middle .center .diary .dia .diaw .theone{
+	border: none;
+}
+/*底部边框*/
+.middle .center .diary .d1{
+	margin-top: 0px;
+	width: 453px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .center .diary .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .center .diary .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*中部右边*/
+
+/*访问记录record*/
+.middle .right .record{
+	width: 228px;
+	height: 212px;
+	margin-top: 12px;
+	margin-left: 14px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .right .record .b1{
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .right .record .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .right .record .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .right .record .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+/*中部内容*/
+.middle .right .record .rec{
+	width: 186px;
+	height: 124px;
+	margin-left: 22px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #b11e26;
+}
+.middle .right .record .rec p{
+	line-height: 22px;
+	border-bottom: 1px black dotted;
+}
+.middle .right .record .rec i{
+	float:left;
+	margin-top: 4px;
+	width: 14px;
+	height: 14px;
+	background: url(点.jpg);
+}
+.middle .right .record .rec span{
+	float: left;
+	margin-left: 12px;
+}
+.middle .right .record .rec .n{
+	font-weight: normal;
+	color: black;
+	margin-left: 32px;
+}
+/*底部边框*/
+.middle .right .record .d1{
+	margin-top: 9px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .right .record .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .right .record .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*留言message*/
+.middle .right .message{
+	width: 228px;
+	height: 280px;
+	margin-top: 12px;
+	margin-left: 14px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .right .message .b1{	
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .right .message .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .right .message .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .right .message .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .right .message .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	text-decoration: none;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 92px;
+}
+/*中部内容*/
+.middle .right .message .mes{
+	width: 204px;
+	height: 184px;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+.middle .right .message .mes div{
+	line-height: 23px;
+}
+.middle .right .message .mes div i{
+	float:left;
+	margin-top: 4px;
+	width: 14px;
+	height: 14px;
+	background: url(点.jpg);
+}
+.middle .right .message .mes p{
+	font-size: 12px;
+}
+.middle .right .message .mes div a{
+	color: #b41f23;
+	font-weight: bold;
+	text-decoration: none;
+}
+.middle .right .message .mes div span{
+	font-weight: bold;
+}
+.middle .right .message .mes div .er{
+	padding-left: 8px;
+}
+.middle .right .message .mes div:hover{
+	text-decoration: underline;
+}
+/*底部边框*/
+.middle .right .message .d1{
+	margin-top: 14px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .right .message .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .right .message .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*好友friend*/
+.middle .right .friend{
+	width: 228px;
+	height: 416px;
+	margin-top: 12px;
+	margin-left: 14px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .right .friend .b1{	
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .right .friend .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .right .friend .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .right .friend .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .right .friend .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	text-decoration: none;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 92px;
+}
+/*中部内容*/
+.middle .right .friend .fri{
+	width: 227px;
+	height: 346px;
+}
+.middle .right .friend .fri div img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.middle .right .friend .fri div .ap{
+	float: left;
+	width: 78px;
+	height: 43px;
+	line-height: 24px;
+	margin-top: 8px;
+	margin-left: 14px;
+	border-bottom:none;
+}
+.middle .right .friend .fri div{
+	height: 87px;
+	border-bottom: 1px #ff9934 solid;
+
+}
+.middle .right .friend .fri div .ap a{
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #b51e25;
+	padding-top: 5px;
+}
+.middle .right .friend .fri div .ap p{
+	font-size: 10px;
+}
+.middle .right .friend .fri div:hover{
+	background: #ff9935;
+}
+/*底部边框*/
+.middle .right .friend .d1{
+	margin-top: 1px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .right .friend .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .right .friend .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+/*偶像idol*/
+.middle .right .idol{
+	width: 228px;
+	height: 338px;
+	margin-left: 14px;
+	margin-top: 12px;
+	background: #ffd2a9;
+}
+/*上部边框*/
+.middle .right .idol .b1{
+	width: 228px;
+	height: 44px;
+	background: url(b.png) 0 -44px;
+}
+.middle .right .idol .b2{
+	height: 44px;
+	background: url(b.png) no-repeat;
+}
+.middle .right .idol .b3{
+	height: 44px;
+	background: url(b.png) right -88px no-repeat;
+}
+.middle .right .idol .b3 span{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 37px;
+}
+.middle .right .idol .b3 a{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	text-decoration: none;
+	color: #b41f25;
+	line-height: 44px;
+	font-weight: bold;
+	padding-left: 92px;
+}
+/*中部图片*/
+.middle .right .idol .man .img{
+	width: 200px;
+	height: 203px;
+	background: white;
+	margin-top: 10px;
+	margin-left: 14px;
+	text-align: center;
+}
+.middle .right .idol .man .img img{
+	margin-top: 8px;
+}
+/*中部按键*/
+.middle .right .idol .but{
+	margin-top: 12px;
+	margin-left: 20px;
+}
+.middle .right .idol .but span{
+	float: left;
+	font-size: 14px;
+	color: #b41e29;
+	font-family: "Microsoft Yahei";
+	font-weight: bold;
+	line-height: 24px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.middle .right .idol .but .l i{
+	float: left;
+	width: 55px;
+	height: 24px;
+	background: url(icons2.png);
+}
+.middle .right .idol .but .r i{
+	float: left;
+	width: 55px;
+	height: 24px;
+	background: url(icons2.png) 0 -32px;
+}
+/*底部边框*/
+.middle .right .idol .d1{
+	margin-top: 20px;
+	width: 228px;
+	height: 25px;
+	background: url(icons3.png) 0 -25px;
+}
+.middle .right .idol .d2{
+	height: 25px;
+	background: url(icons3.png) no-repeat;
+}
+.middle .right .idol .d3{
+	height: 25px;
+	background: url(icons3.png) right -50px no-repeat;
+}
+
+
+
+
+/*底部bottom*/
+.bottom{
+	background:url(bottom.jpg); 
+	border-top: 1px #ff9935 solid;
+	line-height: 86px;
+	text-align: center;
+}
+.bottom p{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Microsoft Yahei";
+	color: #801215;
+}
+.bottom p a{
+	text-decoration: none;
+	color: #801215;
+}
